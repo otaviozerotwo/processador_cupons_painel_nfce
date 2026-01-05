@@ -50,7 +50,7 @@ async function waitUntil100Percent(page) {
       lastValue = progressText;
     }
 
-    if (progressText === '100%' && lastValue !== null) {
+    if (lastValue === '100%') {
       await sleep(8000);
       console.log('4. Processamento chegou a 100%');
       lastValue = null;
