@@ -1,1 +1,7 @@
-documentação: https://pptr.dev/
+documentação: https://pptr.dev/  
+
+comando para abrir browser (PowerShell):
+
+```poweshell
+& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="$env:TEMP\chrome_debug"
+```

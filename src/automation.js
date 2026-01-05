@@ -50,7 +50,7 @@ async function waitUntil100Percent(page) {
       lastValue = progressText;
     }
 
-    if (lastValue === '100%') {
+    if (lastValue === '100%') { // TODO: quando o span já inicia com 100% o loop dá um salto a mais. Precisa arrumar
       await sleep(8000);
       console.log('4. Processamento chegou a 100%');
       lastValue = null;
