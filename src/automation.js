@@ -65,7 +65,7 @@ async function waitUntil100Percent(page) {
 async function closeProgress(page) {
   await page.waitForSelector('#IMGCLOSEPROGRES', { timeout: 5000 });
   await page.click('#IMGCLOSEPROGRES');
-  console.log('4. Janela de progresso fechada');
+  console.log('5. Janela de progresso fechada');
   await sleep(2000);
 }
 
