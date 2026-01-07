@@ -33,7 +33,7 @@ async function waitUntil100Percent(page) {
   console.log('3. Aguardando processamento...');
 
   let lastValue = null;
-  const timeoutMs = 200000;
+  const timeoutMs = 20000000;
   const start = Date.now();
 
   while (true) {
